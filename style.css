@@ -1,0 +1,67 @@
+body
+{	font-weight: bold;
+	background: darkgrey;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+.wrapper
+{
+	display: grid;
+	grid-template-columns: 1fr 1.5fr 1fr; 
+	grid-template-rows: 1fr ;
+	color: white;
+	margin-top: 13%;
+}
+.wrapper > div
+{
+	padding:4em; 
+		
+	border:10px;
+	padding-top: 10px;
+	transition: 500ms ease-in-out transform;
+	border-radius: 10px;
+}
+.wrapper > div:hover 
+{
+	transform: scale(1.03);
+	transition-duration: 200ms;
+}
+.wrapper > div:nth-child(odd)
+{
+	grid-column-gap: 10%;
+}
+#wrapper > div:linki
+{
+	margin-bottom: %;
+	transform: translate3d(12); ;
+}
+.hello
+{
+
+	margin:0 auto;
+	text-transform: uppercase;
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	white-space: nowrap;
+	font-size: 24px;
+}
+img
+{
+	max-width: 100px;
+}
+
+#Hey
+{
+	font-size: 50px;
+	text-align: center;
+}
+
+#con
+{
+	letter-spacing: 2ex
+}
+
+#hr 
+{
+	width: 750px;
+}
