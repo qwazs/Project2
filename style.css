@@ -14,9 +14,9 @@ body
 }
 .wrapper > div
 {
-	padding:4em; 
+	padding: 4em; 
 		
-	border:10px;
+	border: 10px;
 	padding-top: 10px;
 	transition: 500ms ease-in-out transform;
 	border-radius: 10px;
@@ -33,7 +33,7 @@ body
 #wrapper > div:linki
 {
 	margin-bottom: %;
-	transform: translate3d(12); ;
+	transform: translate3d(12); 
 }
 .hello
 {
@@ -58,7 +58,7 @@ img
 
 #con
 {
-	letter-spacing: 2ex
+	letter-spacing: 2ex;
 }
 
 #hr 
